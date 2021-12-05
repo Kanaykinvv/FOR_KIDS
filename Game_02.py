@@ -18,7 +18,7 @@ while True:
     x = random.randint(1, 2)
 
     if x == 1:
-        answer = input("Что больше7 " + str(a) + " или " + str(b) + "? : ")
+        answer = input("Что больше " + str(a) + " или " + str(b) + "? : ")
         if ((a > b) and (a == int(answer))) or ((a < b) and (b == int(answer))):
             print("Верно! Вот тебе 1 очко!")
             check += 1
